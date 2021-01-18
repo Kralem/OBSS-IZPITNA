@@ -1,6 +1,6 @@
 clear all;
 %----READ THE INPUT IMAGE----
-image = imread ('0023.png');
+image = imread ('0005.png');
 sigma = min(size(image)) * 0.005;
 %----SHOW ORIGINAL IMAGE----
 figure, imshow(image);
